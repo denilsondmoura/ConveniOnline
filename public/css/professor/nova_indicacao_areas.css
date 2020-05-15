@@ -1,0 +1,127 @@
+.painel {
+    width: 1050px;
+    height: 400px;
+    margin: auto;
+    margin-top: 0px;
+    text-align: center;
+    font-size: large;
+
+    /* background-color: aqua; */
+}
+
+.aba_header {
+    /* background-color: brown; */
+    width: 100%;
+    height: 40px;
+}
+
+.aba_content {
+    background-color: rgb(230, 230, 230);
+    width: 99.4%;
+    height: 400px;
+    margin: auto;
+    margin-top: 1px;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid rgb(184, 184, 184);
+    display: none;
+}
+
+.aba {
+    background-color: rgb(241, 241, 241);
+    height: 40px;
+    width: 24.3%;
+    display: inline-block;
+    border-radius: 10px 10px 0px 0px;
+    line-height: 40px;
+    border: 1px solid rgb(184, 184, 184);
+}
+
+.aba:hover {
+    cursor: pointer;
+    border: 1px solid rgb(199, 199, 233);
+
+}
+
+#aba_active {
+    background-color: rgb(199, 199, 233);
+}
+
+#active {
+    display: block;
+}
+
+/* Drop down */
+
+.aba_title {
+    /* background-color: blue; */
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    font-size: x-large;
+}
+
+.aba_button {
+    /* background-color: blue; */
+    margin-top: 20px;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+
+.form-submit {
+    float: right;
+    margin: 10px 28px 0px 0px;
+    width: 120px;
+    height: 45px;
+    background-color: rgb(76, 128, 218);
+    border: 1px solid rgb(57, 113, 211);
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+}
+
+.form-submit:hover {
+    cursor: pointer;
+}
+
+.aba_options {
+    display: none;
+    background-color:  rgb(240, 241, 243);
+    width: 95%;
+    height: 200px;
+    padding: 5px;
+    line-height: 36px;
+    border-radius: 6px;
+    overflow: scroll;
+    overflow-x: hidden;
+    border: 1px solid  #ccc;
+    margin: auto !important;
+}
+
+.aba_options ul {
+    list-style-type: none;
+    margin: 4px;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.aba_options ul li:hover {
+    border-radius: 6px;
+    background-color:  rgb(206, 217, 240);
+    color: black;
+
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
+li {
+    cursor: default;
+}
+
+label {
+    cursor: pointer;
+}

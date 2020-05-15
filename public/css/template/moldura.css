@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    background-color: rgb(238, 238, 238);
+    font-family: Geneva, Tahoma, sans-serif
+}
+
+.container {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    border: 1px solid #ccc;
+    padding: 10 10 0 0px;
+}
+
+.h-eader{
+    margin: auto;
+}
+
+.logo {
+    padding: 10px;
+    float: left;
+}
+
+.title {
+    padding: 10px;
+    float: left;
+    text-align: center;
+    line-height: 80px;
+    font-size: 70px;
+    color: rgb(45, 107, 200);
+}
+
+.all-white {
+    margin-top: 100px;
+    background-color: #fbf9ff;
+    height: auto;
+    padding-top: 20px;
+    border: 1px solid #ccc;
+}
+

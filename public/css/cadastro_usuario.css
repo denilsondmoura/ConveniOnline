@@ -1,0 +1,119 @@
+form {
+    border-bottom: 1px solid #ccc  ;
+    height: 310px;
+}
+
+.solicitacao {
+    width: 400px;
+    height: 420px;
+    margin-top: 100px;
+    margin: auto;
+    padding: 20px 50px 30px 50px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: rgb(255, 255, 255);
+    display: block;
+}
+
+.form-title-solicitacao {
+    padding: 0px 35px 75px 0px;
+    /* width: 300px; */
+    height: 10px;
+    font-size: 32px;
+    border-bottom: 1px solid #ccc;
+}
+
+.form-solicitacao {
+    /* width: 530px; */
+    /* height: 200px; */
+    margin: auto;
+    border: 0px solid rgba(0,0,0,0.1);
+    background-color: rgb(255, 255, 255);
+    display: block;
+}
+
+.form-fields-solicitacao {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 15px;   
+}
+
+.left-side {
+    float: left;
+    padding-top: 14px;
+    padding-bottom: 24px;
+    width: 100px;
+}
+
+.right-side {
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    
+}
+
+.option{
+    float: right;
+    width: 100px;
+    padding: 20px;
+    margin-right: 70px;
+}
+
+.form-submit {
+    float: right;
+    margin-top: 10px;
+    width: 120px;
+    height: 45px;
+    background-color: rgb(76, 128, 218);
+    border: 1px solid rgb(57, 113, 211);
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.form-submit:hover {
+    cursor: pointer;
+}
+
+.button-solicitacao {
+    margin: 15px 100px 0px 110px;
+    display: block;
+}
+
+.all-white-solicitacao {
+    margin-top: 100px;
+    background-color: #fbf9ff;
+    height: auto;
+    padding-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.input-solicitacao {
+    border: 1px solid  #ccc;
+    border-radius: 6px;
+    height: 35px;
+    width: 250px;
+    font-size: 18px;
+    padding: 2px;
+    background-color: rgb(248, 251, 255);
+}
+
+.end-solicitacao {
+    margin-top: 10px;
+    width: 530px;
+}
+
+.bt-login {
+
+    text-decoration: none;
+    float: left;
+    color: black;
+    width: auto;
+    margin-top: 10px;
+}
+
+
+.bt-login:hover {
+    color: rgb(76, 128, 218);
+}
+

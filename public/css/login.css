@@ -1,0 +1,86 @@
+.form {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: white;
+    padding: 50px 35px;
+}
+
+.form-title {
+    font-size: 32px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 20px;
+}
+
+.form-section {
+    
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 150px;
+}
+
+
+
+input {
+    border: 1px solid  #ccc;
+    border-radius: 6px;
+    height: 45px;
+    width: 180px;
+    font-size: 18px;
+    padding: 2px;
+    background-color: rgb(248, 251, 255);
+}
+
+.user-field {
+    display: block;
+}
+
+.password-field {
+    display: block;
+}
+
+.left-side {
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.right-side {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login-submit {
+    margin: 30px 10px 10px 10px;
+    margin-top: 15px; 
+    width: 280px;
+    height: 45px;
+    background-color: rgb(76, 128, 218);
+    border: 1px solid rgb(57, 113, 211);
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+}
+
+.login-submit:hover {
+    cursor: pointer;
+}
+
+.bt-cadastro {
+    text-decoration: none;
+    float: right;
+    color: black;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.bt-cadastro:hover {
+    color: rgb(76, 128, 218);
+}
+
+/* .form-submit:hover {
+    background-color: rgb(26, 91, 204);
+    cursor: pointer;
+} */

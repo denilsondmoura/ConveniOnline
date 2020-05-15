@@ -1,0 +1,18 @@
+.feed {
+    width: 1080px;
+    height: 330px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.feed-msg {
+    width: 1080px;
+    text-align: center;
+    font-size: 20px;
+    color: #777;
+}
+
+.feed-img img{
+    margin-left: 25%;
+    margin-right: 25%;
+}

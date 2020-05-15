@@ -1,0 +1,141 @@
+.feed {
+    text-align: center;
+    font-size: large;
+}
+
+th {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 15px;
+}
+
+td {
+    font-size: 20px;
+    padding: 10px;        
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 15px;
+}
+
+
+table {
+    margin-top: 10px;
+    width: 1200px;
+    padding: 10px 10px 10px 10px;
+}
+
+.visualizar
+ {
+    width: auto;
+    height: auto;
+    margin: auto;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: rgb(255, 255, 255);
+    display: block;
+}
+
+.form-visualizar
+ {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    display: block;
+}
+
+.form-title-visualizar
+ {
+    padding: 40px 35px;
+    width: auto;
+    height: 10px;
+    font-size: 32px;
+}
+
+.input-visualizar
+ {
+    border: 1px solid  #ccc;
+    border-radius: 6px;
+    height: 35px;
+    width: 380px;
+    font-size: 18px;
+    padding: 2px;
+    background-color: rgb(248, 251, 255);
+}
+
+.form-fields-visualizar
+ {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 15px;   
+}
+
+.end-visualizar
+ {
+    margin-top: auto;
+    width: 530px;
+    height: 10px;
+    display: block;
+}
+
+.button-visualizar
+ {
+    margin: 15px 100px 0px 110px;
+    display: block;
+}
+.button-plano{
+    /* float: left; */
+    width: auto;
+    height: 40px;
+    background-color: rgb(76, 128, 218);
+    border: 1px solid rgb(57, 113, 211);
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    /* margin-right: 30px; */
+}
+
+.button-plano:hover{
+    cursor: pointer;
+}
+
+.table-row:hover {
+    cursor: pointer;
+    background-color: rgb(247, 254, 255);
+}
+.button-frequencia
+{
+    width: auto;
+    height: 40px;
+    background-color: rgb(76, 128, 218);
+    border: 1px solid rgb(57, 113, 211);
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+}
+
+.button-frequencia:hover
+{
+    cursor: pointer;
+    /* width: auto;
+    height: 40px;
+    background-color: rgb(76, 128, 218);
+    border: 1px solid rgb(57, 113, 211);
+    border-radius: 7px;
+    color: white;
+    font-size: 20px; */
+}
+
+.form-submit {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: auto;
+    height: 45px;
+    background-color: rgb(76, 128, 218);
+    border: 1px solid rgb(57, 113, 211);
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+}
+
+.form-submit:hover {
+    cursor: pointer;
+}
